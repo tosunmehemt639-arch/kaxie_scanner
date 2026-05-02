@@ -5,7 +5,7 @@
     ██║  ██╗██║  ██║██╔╝ ██╗██║███████╗
     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝
     All-in-One Full Stack Web Vulnerability Scanner
-    AI-Augmented | Stealth Mode
+    AI-Augmented | Stealth Mode | CVE-2026+ | API: medpi.gotdns.ch
     ============================================================
 
 usage: kaxie_scanner.py [-h] -u URL [--threads THREADS]
