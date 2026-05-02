@@ -6,4 +6,14 @@ from .sqli_scanner import SQLiScanner
 from .xss_scanner import XSSScanner
 from .lfi_rfi import LFIRFIScanner
 from .ssrf_scanner import SSRFScanner
+from .recon import ReconScanner
+from .dos_scanner import DOSScanner
+from .rce_scanner import RCEScanner
+from .cve_scanner import CVEScanner
+from .sqli_scanner import SQLiScanner
+from .xss_scanner import XSSScanner
+from .lfi_rfi import LFIRFIScanner
+from .ssrf_scanner import SSRFScanner
+from .waf_bypass import WAFBypassScanner
+from .exploitdb_scanner import ExploitDBScanner
 from .waf_bypass import WAFBypassScanner
