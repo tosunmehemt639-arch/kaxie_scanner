@@ -16,11 +16,7 @@ usage: kaxie_scanner.py [-h] -u URL [--threads THREADS]
                         [--skip-sqli] [--skip-xss]
                         [--skip-rce] [--skip-lfi]
                         [--skip-ssrf] [--skip-cve]
-                        [--skip-dos]
+                        [--skip-exploitdb] [--skip-dos]
 kaxie_scanner.py: error: the following arguments are required: -u/--url
 
-
-
-clone this repo 
-
-git clone https://github.com/tosunmehemt639-arch/kaxie_scanner.git
+[Program finished]
