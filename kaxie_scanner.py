@@ -12,12 +12,12 @@ import signal
 import threading
 import time
 from datetime import datetime
-
+import urllib3
 from config import Colors, SCAN_CONFIG
 from ai_engine import AIEngine
 from utils.reporter import ReportManager
 from utils.stealth import StealthManager
-
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from scanners.recon import ReconScanner
 from scanners.dos_scanner import DOSScanner
 from scanners.rce_scanner import RCEScanner
@@ -27,7 +27,7 @@ from scanners.xss_scanner import XSSScanner
 from scanners.lfi_rfi import LFIRFIScanner
 from scanners.ssrf_scanner import SSRFScanner
 from scanners.waf_bypass import WAFBypassScanner
-
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def banner():
     print(f"""{Colors.BOLD}{Colors.RED}
